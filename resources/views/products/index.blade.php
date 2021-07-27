@@ -17,6 +17,9 @@
                 @foreach ( $products  as $product )
                         <div class="card" style="width: 250px">
                             <div class="card-body">
+                              @foreach ( $product->categories as $category )
+                                <div style="color:green">{{ $category->name }}</div>
+                              @endforeach
                                 <strong><h4 class="card-title text-success">{{ $product->title }}</h4></strong>
                                 <p class="card-text">{{ $product->subtitle }}</p>
                                 <a href="{{ route('produits.show', $product->slug)}}" class="btn btn-success">Détails</a>
@@ -29,7 +32,7 @@
                    
                 @endforeach  
             </div>
-        </div>   
+            <div class="d-flex justify-content-center mt-5">{{ $products->appends(request()->input())->links() }}</div>
+        </div>  
     </div>
-
     @endsection

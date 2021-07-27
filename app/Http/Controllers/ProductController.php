@@ -9,7 +9,14 @@ use Illuminate\Http\Request;
 class ProductController extends Controller
 {
     public function index() {
-        $products = Product::all();
+        if (request()->categorie) {
+            $products = Product::with('categories')->whereHas('categories', function($query) {
+                $query->where('slug', request()->categorie);
+            })->paginate((1));
+        } else {
+            $products = Product::with('categories')->paginate(1);
+        }
+        
         return view('products.index', compact('products'));
     }
 
