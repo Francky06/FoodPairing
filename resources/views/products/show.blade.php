@@ -10,11 +10,11 @@
                         <div class="card" style="width: 250px">
                             <div class="card-body">
                                 <h4 class="card-title">{{ $product->title }}</h4>
-                                <p class="card-text">{{ $product->description }}</p>
+                                <p class="card-text">{!! $product->description !!}</p>
                                 <a href="{{ route('produits')}}" class="btn btn-success">Retour</a>
                             </div>
                             <img class="card-img-bottom"
-                                src={{ $product->image}}
+                                src={{ asset('storage/' . $product->image) }}
                                 alt="Card image"
                                 />
                         </div>

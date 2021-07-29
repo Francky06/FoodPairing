@@ -12,16 +12,27 @@ class ProductController extends Controller
         if (request()->categorie) {
             $products = Product::with('categories')->whereHas('categories', function($query) {
                 $query->where('slug', request()->categorie);
-            })->paginate((1));
+            })->paginate((6));
         } else {
-            $products = Product::with('categories')->paginate(1);
+            $products = Product::with('categories')->paginate(6);
         }
         
         return view('products.index', compact('products'));
     }
 
-        public function show($slug) {
+    public function show($slug) {
         $product = Product::where('slug', $slug)->firstOrFail();
         return view('products.show', compact('product'));
     }
+    public function search() {
+
+        request()->validate([
+            'search' => 'required|min:3'
+        ]);
+
+        $q = request()->input('search');
+        $products = Product::where('title', 'like', "%$q%")->orWhere('description', 'like', "%$q%")->paginate(6);
+        return view('products.search', compact('products'));
+    }
+
 }

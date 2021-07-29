@@ -1,5 +1,6 @@
 <?php
 
+use TCG\Voyager\Facades\Voyager;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
 
@@ -20,3 +21,9 @@ Route::name('welcome')->get('/', function () {
 
 Route::get('produits', [ProductController::class, 'index'])->name('produits');
 Route::get('produits/{slug}', [ProductController::class, 'show'])->name('produits.show');
+Route::get('/search', [ProductController::class, 'search'])->name('produits.search');
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});

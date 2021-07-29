@@ -1,10 +1,23 @@
 @extends('layout.app')
 
 @section('content')
-<h1 class="text-center">Produits</h1>
-<div class="text-center">
-  @include('partials.search')
-</div>
+    <h1 class="text-center">Produits</h1>
+    <div class="text-center">
+    @include('partials.search')
+    @if (request()->input('search'))
+        <div>{{ $products->total() }} résultat(s)</div>
+    @endif
+
+    @if (count($errors) > 0 )
+        <div class="alert alert-danger">
+            <ul class="mb-0 mt-0">
+                @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach    
+            </ul>      
+        </div>    
+    @endif
+    </div>
   <div class="nav-scroller py-1 mb-2">
     <nav class="nav d-flex justify-content-evenly"> 
         @foreach ( App\Models\Category::all() as $category )

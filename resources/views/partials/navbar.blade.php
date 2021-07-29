@@ -10,6 +10,7 @@
           <a class="nav-link active" aria-current="page" href="{{ route('produits') }}">Produits</a>
           <a class="nav-link active" href="#">A propos</a>
           <a class="nav-link active" href="#">Contact</a>
+          @include('partials.search')
         </div>
       </div>
     </div>
