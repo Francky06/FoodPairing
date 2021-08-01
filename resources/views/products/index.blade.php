@@ -27,10 +27,13 @@
                                 <p class="card-text">{{ $product->subtitle }}</p>
                                 <a href="{{ route('produits.show', $product->slug)}}" class="btn btn-success">Détails</a>
                             </div>
-                            <img class="card-img-bottom"
-                                src={{ asset('storage/' . $product->image) }}
-                                alt="Card image"
-                                />
+                            <div class="m-3 d-flex justify-content-center">
+                              <img class="card-img-bottom"
+                                  src={{ asset('storage/' . $product->image) }}
+                                  alt="Card image"
+                                  style="width:200px; height:200px"
+                                  />
+                            </div>    
                         </div>
                    
                 @endforeach  
