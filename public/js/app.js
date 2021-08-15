@@ -1842,6 +1842,52 @@ module.exports = {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
+function splitScroll() {
+  var controller = new ScrollMagic.Controller();
+  new ScrollMagic.Scene({
+    duration: "50%",
+    triggerElement: ".test",
+    triggerHook: 0.5
+  }).setPin(".test").addIndicators().addTo(controller);
+  new ScrollMagic.Scene({
+    duration: "200%",
+    triggerElement: ".about-title",
+    triggerHook: 0
+  }).setPin(".about-title").addIndicators().addTo(controller);
+}
+
+splitScroll();
+var tl = gsap.timeline({
+  defaults: {
+    ease: "power1.out"
+  }
+});
+tl.to(".text", {
+  y: "0%",
+  duration: 0.8,
+  stagger: 0.25
+});
+tl.to(".slider", {
+  y: "-100%",
+  duration: 1.5
+});
+tl.to(".intro", {
+  y: "-100%",
+  duration: 1
+}, "-=0.85");
+tl.fromTo("nav", {
+  opacity: 0
+}, {
+  opacity: 1,
+  duration: 1
+});
+tl.fromTo(".big-text", {
+  opacity: 0
+}, {
+  opacity: 1,
+  duration: 1.5
+}, "-=1");
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":

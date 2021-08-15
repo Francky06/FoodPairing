@@ -1,5 +1,5 @@
-<header>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+<header style="background-color: transparent">
+  <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
     <div class="container-fluid">
       <a class="navbar-brand" href="{{ route('welcome') }}">FoodPairing</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
