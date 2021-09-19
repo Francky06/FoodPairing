@@ -2,6 +2,12 @@ h1 {
     font-size: 100px;
 }
 
+h1,
+h2,
+h3 {
+    font-family: "Lato";
+}
+
 #navbarNavAltMarkup {
     justify-content: end;
 }
@@ -56,9 +62,8 @@ h1 {
     left: 0;
     width: 100%;
     height: 0%;
-    background: #f7ff00c9;
+    background: #a7094bc9;
     font-size: 10vw;
-    font-family: "Audiowide", fantasy;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -74,6 +79,33 @@ h1 {
     transition: 1000ms ease-in-out;
 }
 
+a {
+    color: black;
+}
+
+.ctm {
+    background-image: url("/FoodPairing/public/images/fillerose2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.cta {
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    opacity: 0.5;
+    margin: auto;
+}
+
+.cta h2 {
+    margin-top: 50px;
+    font-size: 30px;
+    opacity: 1.5;
+}
+
 .hero {
     width: 100%;
     height: 100%;
@@ -81,6 +113,7 @@ h1 {
     justify-content: center;
     align-items: center;
     background-color: white;
+    margin-top: 50px;
 }
 
 /* Parallax */

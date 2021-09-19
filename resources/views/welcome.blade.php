@@ -12,7 +12,7 @@
 
 			<h1>FoodPairing</h1>
 			<div class="titre">
-				<div class="text-center" style="font-size:5vw; margin-top:10rem; color:#fb5068">Le Tinder des Saveurs</div>
+				<div class="text-center" style="font-size:6vw; margin-top:10rem; color:#fb5068">Le Tinder des Saveurs</div>
 			</div>	 
 		</div> 
 
@@ -32,11 +32,11 @@
 <div class="slider"></div>  --}}
 
 
-
     <div class="hero">
 		<div class="row text-center">
-			<h2>Mais qu'est ce que c'est le Food-pairing ?</h2>
-			<p>C’est l’art d’associer parfaitement deux aliments, a priori incompatibles,
+			<h2>LE FOOD PAIRING C'EST QUOI AU JUSTE?</h2>
+			<div class="col-md-12 p-5">
+			<p>Le Food Pairing est l’art d’associer parfaitement deux aliments, a priori incompatibles,
 				 mais affichant des composantes moléculaires similaires. La combinaison des ingrédients est établie sur la base des combinaisons
 				  théoriques des composés odorants et sur leur constitution chimique. </p>
 			<p>Le food pairing commence par l'analyse d'un ingrédient. A l’aide d’une chromatographie en phase gazeuse, on peut déterminer 
@@ -47,6 +47,12 @@
 				Reste que le fait que deux aliments aient des molécules aromatiques compatibles ne suffit pas. Il faut savoir doser, 
 				équilibrer les saveurs, et maîtriser les cuissons.</p>
 				<br>
+			</div>
+			<div class="col-md-12 ctm">
+				<div class="cta">
+				<h2>Découvrez le Food Pairing en recherchant un <a href="{{ route('produits') }}">PRODUIT</a></h2>
+				</div>
+			</div>
 				<h3>Des combinaisons inédites basées sur la science !</h3>
 				<p>Donc L'idée: analyser les similitudes entre chaque aliment d'un point de vue moléculaire.
 					S'ils ont des molécules communes c'est qu'ils s'associent bien d'un point de vue gustatif. 
@@ -73,6 +79,8 @@
 					<h4>Du gingembre sur vos aubergines!
 					Le goût poivré de la racine de gingembre fraîche est idéal pour atténuer l’amertume prononcée de l’aubergine. Le gingembre s’incorpore aisément dans vos caviars, sautés et currys d’aubergine. 
 					</h4>
+
+					
 
 			<div class="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center">
 				<div class="jumb">
@@ -104,6 +112,7 @@
 			
 		</div>
 	</div>
+
 
 		<div class="cache">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
