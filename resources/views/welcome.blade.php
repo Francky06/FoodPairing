@@ -50,39 +50,46 @@
 			</div>
 			<div class="col-md-12 ctm">
 				<div class="cta">
-				<h2>Découvrez le Food Pairing en recherchant un <a href="{{ route('produits') }}">PRODUIT</a></h2>
+					<h2>Découvrez le Food Pairing en recherchant un <a href="{{ route('produits') }}">PRODUIT</a></h2>
+					<div class="ia">
+						<h3>Des combinaisons inédites basées sur la science !</h3>
+						<p>Donc l'idée: analyser les similitudes entre chaque aliment d'un point de vue moléculaire.
+							S'ils ont des molécules communes c'est qu'ils s'associent bien d'un point de vue gustatif. 
+						Une approche « qui combine neurogastronomie, c’est-à-dire la façon dont le cerveau perçoit les saveurs,
+						et l’analyse des profils aromatiques dérivés des composants chimiques présents dans les aliments ». </p>
+						<br>
+					</div>
 				</div>
 			</div>
-				<h3>Des combinaisons inédites basées sur la science !</h3>
-				<p>Donc L'idée: analyser les similitudes entre chaque aliment d'un point de vue moléculaire.
-					S'ils ont des molécules communes c'est qu'ils s'associent bien d'un point de vue gustatif. 
-				Une approche « qui combine neurogastronomie, c’est-à-dire la façon dont le cerveau perçoit les saveurs,
-				 et l’analyse des profils aromatiques dérivés des composants chimiques présents dans les aliments ». </p>
-				 <br>
-				 <h3>Quand l’intelligence artificiel sublime le mélange des saveurs</h3>
-				 <p>On peut s’attendre à ce que l’intelligence artificielle booste la créativité de toutes les cuisines, haut de gamme et fait maison, 
-					tout en optimisant la prise en compte de certains paramètres : 
-					· Notre santé 
-					· Nos engagements éthiques, sociaux, environnementaux 
-					· Notre budget. 
-					A l’heure où l’on est de plus en plus soucieux de la qualité de nos menus, et où l’alimentation devient pour beaucoup un levier
-					pour répondre aux enjeux écologiques, l’intérêt de l’IA pour nous aider dans cette tâche est grandissant. 
-					À l'instar de la musique assistée par intelligence artificielle, il existe une combinaison infinie d'ingrédients, 
-					et l'IA doit tenir compte aussi de contraintes comme le climat, la saison et les préférences en matière de santé et d'alimentation.
-					En fait, ce projet est à deux étages. Il y aura donc une IA pour créer les recettes, mais aussi un robot considéré comme un « assistant pour chef ».</p>
-					<br>
-					<h4>Association de saveurs, Tinder du poireau vinaigrette, Association d’ingrédients,Fourme d’ambert et ananas? 
+			<div class="col-md-12 iactm">
+					<h3>Quand l’intelligence artificiel sublime le mélange des saveurs</h3>
+					<p>On peut s’attendre à ce que l’intelligence artificielle booste la créativité de toutes les cuisines, haut de gamme et fait maison, 
+						tout en optimisant la prise en compte de certains paramètres :</p>
+						<ul style="list-style: none">
+							<li>Notre santé</li>
+							<li>Nos engagements éthiques, sociaux, environnementaux</li>
+							<li>Notre budget.</li>
+						</ul>
+						<p>
+						A l’heure où l’on est de plus en plus soucieux de la qualité de nos menus, et où l’alimentation devient pour beaucoup un levier
+						pour répondre aux enjeux écologiques, l’intérêt de l’IA pour nous aider dans cette tâche est grandissant. <br>
+						À l'instar de la musique assistée par intelligence artificielle, il existe une combinaison infinie d'ingrédients, 
+						et l'IA doit tenir compte aussi de contraintes comme le climat, la saison et les préférences en matière de santé et d'alimentation.
+						En fait, ce projet est à deux étages. Il y aura donc une IA pour créer les recettes, mais aussi un robot considéré comme un « assistant pour chef ».</p>
+						<br>
+			</div>			
+					{{-- <h4>Association de saveurs, Tinder du poireau vinaigrette, Association d’ingrédients,Fourme d’ambert et ananas? 
 					Savoir equilibrer les saveurs, kiwi huitre, poulet maroilles, la science rejoint la gastronomie 
 					Canard à l’orange (1945), saumon à l’oseille (1962) 
 					</h4>
 					<br>
 					<h4>Du gingembre sur vos aubergines!
 					Le goût poivré de la racine de gingembre fraîche est idéal pour atténuer l’amertume prononcée de l’aubergine. Le gingembre s’incorpore aisément dans vos caviars, sautés et currys d’aubergine. 
-					</h4>
+					</h4> --}}
 
 					
 
-			<div class="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center">
+			{{-- <div class="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center">
 				<div class="jumb">
 					<div class="card">
 					<img src="{{ asset('images/fourchette.jpg')}}"  class="card-img-top">	
@@ -107,58 +114,51 @@
 				 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, dolores?</p>
 				<img src="{{ asset('images/piment.jpg')}}"  class="img-fluid">
 				</div>
-			</div>
+			</div> --}}
 
 			
 		</div>
 	</div>
 
-
-		<div class="cache">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		<div class="text-center">
-		<img src="{{ asset('images/filleHero.jpg')}}" class="img-fluid">
+		<div class="col-md-12 d-flex justify-content-center">
+			<div class="cache">
+				<img src="{{ asset('images/pngegg.png')}}" style="width: 80%"><br>
+			</div>
 		</div>
-		</div>
-		<div class="test">
-			<h2>TEST</h2>
+		<div class="test">		
+      <div class="row justify-content-center">
+        <div class="col-sm-12 col-md-12 p-5 text-center">
+	<iframe frameborder="0" width="400" height="200" src="https://www.dailymotion.com/embed/video/x7zfoet" allowfullscreen allow="autoplay"></iframe>
+        </div>
+		<button class="btn mt-3 p-1" style="background-color:white; width:50%; font-weight:bold"><a href="#">Découvrir le café</a></button>
+		
+      </div>
 		</div>
 
 	<section class="about">
 		<div class="about-title">
-			<h2>About Me</h2>
+			<h2>Food <br>
+				Pairing</h2>
 		</div>
 		<div class="about-pages">
-			<div>
-				<h2>Projet 1</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<div class="text-center">
+				<h2>Food Pairing la RoadMap 2022-2023</h2>
+				<p>Développer un plus grand nombre de produits! N'oubliez pas que vous pouvez voter pour vos aliments préferés sur notre instragram.</p>
+				<p>Rendre la recherche plus dynamique</p>
+				<p>Créer un forum</p>
+				<p>Fonder une communauté de passionés</p>
 			</div>
-			<div>
-				<h2>Projet 1</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<div class="text-center">
+				<h2>Food Pairing, une rencontre plus fun</h2>
+				<p>Faire des vidéos recettes insolites sur Youtube</p>
+				<p>Faire des recettes flash sur TikTok</p>
+				<p>Développer un réseau de chefs professionnels</p>
 			</div>
-			<div>
-				<h2>Projet 1</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<div class="text-center">
+				<h2>Food Pairing la RoadMap 2024</h2>
+				<p>Ecrire un livre de recettes</p>
+				<p>Sponsoring sur Top Chef</p>
+				<p>Développer une IA sur les saveurs de demain</p>
 			</div>
 		</div>
 	</section>
@@ -167,15 +167,14 @@
 		    <!-- ROW IMAGE-->
 
       <div class="row justify-content-center">
-        <div class="col-sm-12 col-md-6 p-5">
-	<img src="{{ asset('images/fillerose.jpg')}}" style="width: 100%; height:100%" >
+        <div class="col-sm-12 col-md-6 p-5 text-center">
+			<p>La cagnotte Leetchy vient d'étre lancé !!</p>
+			<p>Vous voulez participer à un projet sortant de l'ordinaire?</p>
+			<p>Vous avez la Roadmap, avez-vous le courage d'investir et de rejoindre le projet?</p>
+			<p>Développeur, Chef, Youtuber Bienvenue !!</p>
+			<p>Rejoignez-nous sur instagram si vous avez questions, ou pour vos projets cuisine!</p>
         </div>
-        <div class="col-sm-12 col-md-6 p-5">
-	<img src="{{ asset('images/fillerose.jpg')}}" style="width: 100%; height:100%";>
-        </div>
-        <div class="col-sm-12 col-md-6 p-5">
-	<img src="{{ asset('images/fillerose.jpg')}}" style="width: 100%; height:100%";>
-        </div>
+
       </div>
 	</footer>
 
