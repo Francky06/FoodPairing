@@ -3,5 +3,5 @@
         <input type="text" name="search" class="form-control" value="{{ request()->q ?? ""}}">
     </div>
     
-    <button type="submit" class="btn btn-warning">Search</button>
+    <button type="submit" class="btn btn-warning">Cherchez</button>
 </form>

@@ -16,7 +16,7 @@
 			</div>	 
 		</div> 
 
- {{-- <div class="intro">
+ <div class="intro">
 	<div class="intro-text">
 		<h3 class="hide">
 			<span class="text" style="color:#00fd33e8">Créez</span>
@@ -29,7 +29,7 @@
 		</h3>
 	</div>
 </div>
-<div class="slider"></div>  --}}
+<div class="slider"></div>  
 
 
     <div class="hero">
@@ -77,60 +77,21 @@
 						et l'IA doit tenir compte aussi de contraintes comme le climat, la saison et les préférences en matière de santé et d'alimentation.
 						En fait, ce projet est à deux étages. Il y aura donc une IA pour créer les recettes, mais aussi un robot considéré comme un « assistant pour chef ».</p>
 						<br>
-			</div>			
-					{{-- <h4>Association de saveurs, Tinder du poireau vinaigrette, Association d’ingrédients,Fourme d’ambert et ananas? 
-					Savoir equilibrer les saveurs, kiwi huitre, poulet maroilles, la science rejoint la gastronomie 
-					Canard à l’orange (1945), saumon à l’oseille (1962) 
-					</h4>
-					<br>
-					<h4>Du gingembre sur vos aubergines!
-					Le goût poivré de la racine de gingembre fraîche est idéal pour atténuer l’amertume prononcée de l’aubergine. Le gingembre s’incorpore aisément dans vos caviars, sautés et currys d’aubergine. 
-					</h4> --}}
-
-					
-
-			{{-- <div class="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center">
-				<div class="jumb">
-					<div class="card">
-					<img src="{{ asset('images/fourchette.jpg')}}"  class="card-img-top">	
-					
-					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, placeat....?
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, dolores?</p>
-					
-					
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-12 col-md-4 col-lg-4">
-				<div class="jumb">
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, dolores?
-				 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, dolores?</p>
-				<img src="{{ asset('images/melanges.jpg')}}"  class="img-fluid">
-				</div>
-			</div>
-			<div class="col-sm-12 col-md-4 col-lg-4">
-				<div class="jumb">
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, dolores?
-				 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, dolores?</p>
-				<img src="{{ asset('images/piment.jpg')}}"  class="img-fluid">
-				</div>
-			</div> --}}
-
-			
+			</div>				
 		</div>
 	</div>
 
 		<div class="col-md-12 d-flex justify-content-center">
 			<div class="cache">
-				<img src="{{ asset('images/pngegg.png')}}" style="width: 80%"><br>
+				<img src="{{ asset('images/colorsmall.png')}}"><br>
 			</div>
 		</div>
 		<div class="test">		
       <div class="row justify-content-center">
-        <div class="col-sm-12 col-md-12 p-5 text-center">
+        <div class="col-sm-12 col-md-12 text-center">
 	<iframe frameborder="0" width="400" height="200" src="https://www.dailymotion.com/embed/video/x7zfoet" allowfullscreen allow="autoplay"></iframe>
         </div>
-		<button class="btn mt-3 p-1" style="background-color:white; width:50%; font-weight:bold"><a href="#">Découvrir le café</a></button>
+		<button class="btn mt-5 p-1" style="background-color:white; width:50%; font-weight:bold"><a href="#">Découvrir le café</a></button>
 		
       </div>
 		</div>
@@ -163,20 +124,6 @@
 		</div>
 	</section>
 
-	<footer>
-		    <!-- ROW IMAGE-->
-
-      <div class="row justify-content-center">
-        <div class="col-sm-12 col-md-6 p-5 text-center">
-			<p>La cagnotte Leetchy vient d'étre lancé !!</p>
-			<p>Vous voulez participer à un projet sortant de l'ordinaire?</p>
-			<p>Vous avez la Roadmap, avez-vous le courage d'investir et de rejoindre le projet?</p>
-			<p>Développeur, Chef, Youtuber Bienvenue !!</p>
-			<p>Rejoignez-nous sur instagram si vous avez questions, ou pour vos projets cuisine!</p>
-        </div>
-
-      </div>
-	</footer>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>

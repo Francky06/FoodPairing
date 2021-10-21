@@ -1,7 +1,7 @@
 @extends('layout.app')
 
 @section('content')
-        <h1>Show</h1>
+        <h1>show</h1>
         <div style="text-align: center;">
             <div class="container">
                 <div class="row justify-content-evenly">
